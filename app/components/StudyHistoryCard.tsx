@@ -4,8 +4,6 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import useSWR from 'swr';
-
 interface StudyHistoryCardProps {
   name?: string;
   period: string;
