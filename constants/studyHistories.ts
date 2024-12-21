@@ -276,7 +276,7 @@ export const studyHistories: StudyHistoryType[] = [
     period: '4時間',
     platform: 'udemy',
     imageIndex: 0,
-    platformUrl: 'https://www.udemy.com/course/react_v18//',
+    platformUrl: 'https://www.udemy.com/course/react_v18/',
     description: 'TransitionやSuspenseの使い方を学べそうだったので学習.',
   },
   {
