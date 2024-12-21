@@ -5,7 +5,7 @@ import { AiFillBulb } from 'react-icons/ai';
 
 function StudySkills() {
   return (
-    <section className="w-full px-6 py-10 bg-white" id="skills">
+    <section className="w-full px-6 py-10 bg-whitesmoke" id="skills">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-lg font-medium text-gray-700 mb-8 flex items-center gap-2">
           <AiFillBulb className="text-cadetblue" />

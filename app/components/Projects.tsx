@@ -24,7 +24,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div className="max-w-7xl mx-auto px-2 py-8 bg-gray-50" id="projects">
+    <div className="max-w-7xl mx-auto px-2 py-8 bg-whitesmoke" id="projects">
       <h1 className="text-5xl font-bold text-center mb-16">
         プロジェクト（個人開発アプリ）
       </h1>

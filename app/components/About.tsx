@@ -15,7 +15,7 @@ function About() {
     : businessCertificates.slice(0, 3);
   return (
     <section
-      className="w-full h-fit px-[40px] py-10 max-xs:px-[20px] relative bg-white"
+      className="w-full h-fit px-[40px] py-10 max-xs:px-[20px] relative bg-whitesmoke"
       id="about"
     >
       <div className=" max-w-7xl mx-auto">
