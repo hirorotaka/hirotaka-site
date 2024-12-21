@@ -79,6 +79,8 @@ function StudyHistoryCard({
     return ogImage;
   };
 
+  console.log(ogpData);
+
   if (!isVisible) {
     return (
       <motion.div
