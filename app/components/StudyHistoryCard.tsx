@@ -51,7 +51,7 @@ function StudyHistoryCard({
       try {
         const response = await fetch(
           `/api/ogp?url=${encodeURIComponent(platformUrl)}`,
-          { cache: 'force-cache' }
+          { cache: 'no-store' }
         );
         const data = await response.json();
 
