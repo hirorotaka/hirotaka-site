@@ -163,17 +163,7 @@ export const studyHistories: StudyHistoryType[] = [
       '気分転換に図書館で借りて本での学習。基礎知識を深く学ぶうえで良かった。また何回も読み直して知識を深めたい。',
   },
   {
-    id: 14,
-    name: 'Docker超入門講座 合併版 | ゼロから実践する4時間のフルコース',
-    category: ['docker'],
-    period: '5時間',
-    platform: 'youtube',
-    imageIndex: 0,
-    platformUrl: 'https://youtu.be/lZD1MIHwMBY?si=Uj0ZMNqTw5mr3fCT',
-    description: 'dockerの仕組みを学ぶために学習',
-  },
-  {
-    id: 14,
+    id: 15,
     category: ['laravel'],
     period: '6時間',
     platform: 'udemy',
@@ -182,7 +172,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'laravelの仕組みを学ぶために学習',
   },
   {
-    id: 15,
+    id: 16,
     category: ['laravel'],
     period: '12時間',
     platform: 'udemy',
@@ -191,7 +181,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'Laravel11を体系的に学ぶために学習',
   },
   {
-    id: 15,
+    id: 17,
     category: ['laravel'],
     period: '12時間',
     platform: 'udemy',
@@ -201,7 +191,7 @@ export const studyHistories: StudyHistoryType[] = [
       '実践に近そうな講座を探していて、見つけたため学習。要件定義から実装まで学習。',
   },
   {
-    id: 16,
+    id: 18,
     category: ['laravel'],
     period: '5時間',
     platform: 'udemy',
@@ -211,7 +201,7 @@ export const studyHistories: StudyHistoryType[] = [
       'ReactをLaravelで使ったものがないか？探しているところで見つけたため学習。React+LaravelでのCRUD処理を学習。',
   },
   {
-    id: 17,
+    id: 19,
     category: ['typescript'],
     period: '13時間',
     platform: 'udemy',
@@ -221,7 +211,7 @@ export const studyHistories: StudyHistoryType[] = [
       'TypeScriptを体系的に学ぶために学習。ジェネリクスとデコレータの理解が浅いので、復習で改めて学習したい。',
   },
   {
-    id: 18,
+    id: 20,
     category: ['react'],
     period: '13時間',
     platform: 'udemy',
@@ -231,7 +221,7 @@ export const studyHistories: StudyHistoryType[] = [
       '難易度が高めで、React Hook FormとZodを利用したフォーム管理方法を学ぶために学習。FireBaseのFireStoreを導入してフルスタックで開発できるので、学習',
   },
   {
-    id: 19,
+    id: 21,
     category: ['react'],
     period: '5時間',
     platform: 'udemy',
@@ -241,7 +231,7 @@ export const studyHistories: StudyHistoryType[] = [
       'Reactの基礎(JSX記法、state管理、コンポーネントの使い方、再レンダリングと副作用「useEffect」、データ取得)をある程度理解した後に、自作アプリを作ってみようと思いイメージをつけるために学習',
   },
   {
-    id: 19,
+    id: 22,
     category: ['react'],
     period: '5時間',
     platform: 'udemy',
@@ -251,7 +241,7 @@ export const studyHistories: StudyHistoryType[] = [
       '初級者〜中級者向けのものを探していて見つけたため学習。ポケモン図鑑・ブログ・ノートアプリなどを作成するなかでAPIフェッチを学習。',
   },
   {
-    id: 19,
+    id: 23,
     category: ['react'],
     period: '25時間',
     platform: 'udemy',
@@ -261,7 +251,7 @@ export const studyHistories: StudyHistoryType[] = [
       'reactを体系的に学んでみたいと思い学習・ReduxとRedux toolkitを使ってみたいと思い学習',
   },
   {
-    id: 20,
+    id: 24,
     category: ['react'],
     period: '7時間',
     platform: 'udemy',
@@ -271,7 +261,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'React教材で評価が高く、わかりやすそうだったので学習。',
   },
   {
-    id: 21,
+    id: 25,
     category: ['react'],
     period: '8時間',
     platform: 'udemy',
@@ -281,7 +271,7 @@ export const studyHistories: StudyHistoryType[] = [
       'コンポーネントの分割方法(Atomic Design)を学べそうだったので学習。',
   },
   {
-    id: 22,
+    id: 26,
     category: ['react'],
     period: '4時間',
     platform: 'udemy',
@@ -290,7 +280,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'TransitionやSuspenseの使い方を学べそうだったので学習.',
   },
   {
-    id: 23,
+    id: 27,
     category: ['nextjs'],
     period: '6時間',
     platform: 'udemy',
@@ -299,7 +289,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'App Routerを学べそうだったので学習.',
   },
   {
-    id: 24,
+    id: 28,
     category: ['nodejs'],
     period: '18時間',
     platform: 'udemy',
@@ -308,7 +298,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'Node.jsを体系的に学べそうだったので学習.',
   },
   {
-    id: 25,
+    id: 29,
     category: ['react'],
     period: '4時間',
     platform: 'udemy',
@@ -317,7 +307,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'Reactで実務で使えそうな教材で学べそうだったので学習.',
   },
   {
-    id: 26,
+    id: 30,
     category: ['react'],
     period: '4時間',
     platform: 'udemy',
@@ -326,7 +316,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'Reactでミニアプリを作成しつつ学べそうだったので学習.',
   },
   {
-    id: 27,
+    id: 31,
     category: ['javascript'],
     period: '46時間',
     platform: 'udemy',
@@ -336,7 +326,7 @@ export const studyHistories: StudyHistoryType[] = [
       'JavaScriptで実務で使っていたものの、改めて体系的に学べそうだったので学習.',
   },
   {
-    id: 28,
+    id: 32,
     category: ['typescript'],
     period: '15時間',
     platform: 'udemy',
@@ -347,7 +337,7 @@ export const studyHistories: StudyHistoryType[] = [
       'TypeScriptを学びつつ、アプリケーションアーキテクチャを学べそうだったので学習.理解度が浅かったので改めて復習したい。',
   },
   {
-    id: 29,
+    id: 33,
     category: ['git'],
     period: '10時間',
     platform: 'udemy',
@@ -356,7 +346,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: '実務で使っていたものの、改めてGitを学べそうだったので学習.',
   },
   {
-    id: 30,
+    id: 34,
     category: ['docker'],
     period: '10時間',
     platform: 'udemy',
@@ -366,7 +356,7 @@ export const studyHistories: StudyHistoryType[] = [
       '今後Dockerでの開発が主流になり、わかりやすく学べそうだったので学習.',
   },
   {
-    id: 31,
+    id: 35,
     category: ['php'],
     period: '33時間',
     platform: 'udemy',
@@ -375,7 +365,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'PHPをガチで学んでみたくなったので学習.網羅的に学べた。',
   },
   {
-    id: 32,
+    id: 36,
     category: ['php'],
     period: '15時間',
     platform: 'udemy',
@@ -384,7 +374,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'PHPの基礎を徹底的に学べそうだったので学習.',
   },
   {
-    id: 33,
+    id: 37,
     category: ['php'],
     period: '23時間',
     platform: 'udemy',
@@ -393,7 +383,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'PHPで中級者向けの教材で学びつつ、改めて学ぶために学習.',
   },
   {
-    id: 34,
+    id: 38,
     category: ['php'],
     period: '23時間',
     platform: 'udemy',
@@ -402,7 +392,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'PHPで中級者向けの教材で学びつつ、改めて学ぶために学習.',
   },
   {
-    id: 35,
+    id: 39,
     category: ['python'],
     period: '23時間',
     platform: 'udemy',
@@ -412,7 +402,7 @@ export const studyHistories: StudyHistoryType[] = [
       'Pythonで初級者向けの教材で学びつつ、簡単ではない教材で学ぶために学習.',
   },
   {
-    id: 36,
+    id: 40,
     category: ['linux・linuc'],
     period: '23時間',
     platform: 'udemy',
@@ -421,7 +411,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: '実務で使っていたものの、改めてLinuxを学べそうだったので学習.',
   },
   {
-    id: 38,
+    id: 41,
     category: ['nextjs'],
     period: '23時間',
     platform: 'udemy',
@@ -430,7 +420,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'nextjsで中級者向けやAIを活用した教材で学ふために学習.',
   },
   {
-    id: 39,
+    id: 42,
     category: ['nodejs'],
     period: '11時間',
     platform: 'udemy',
@@ -439,7 +429,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: '良いコードを書くための教材で学ふために学習.',
   },
   {
-    id: 40,
+    id: 43,
     category: ['fullstack'],
     period: '11時間',
     platform: 'ShinCode_Camp',
@@ -449,7 +439,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'NextjsとShadcnUIを使ってみたく、学習.',
   },
   {
-    id: 40,
+    id: 44,
     category: ['react'],
     period: '6時間',
     platform: 'ShinCode_Camp',
@@ -460,7 +450,7 @@ export const studyHistories: StudyHistoryType[] = [
       'レンダリングのタイミング/キャッシュ/状態管理/メモ化/パフォーマンスチューニングを学んでみたく、学習.',
   },
   {
-    id: 41,
+    id: 45,
     category: ['react'],
     period: '6時間',
     platform: 'ShinCode_Camp',
@@ -470,7 +460,7 @@ export const studyHistories: StudyHistoryType[] = [
       'TanStack QueryやuseSWRを使ったキャッシュ化戦略を学んでみたく、学習.',
   },
   {
-    id: 42,
+    id: 46,
     category: ['fullstack'],
     period: '7時間',
     platform: 'ShinCode_Camp',
@@ -481,7 +471,7 @@ export const studyHistories: StudyHistoryType[] = [
       'Reactの中級者向けの教材で学ふために学習。React/Redux/Node.js/Express/MongoDB。ユーザー認証(JWT)APIやメモ作成API構築など',
   },
   {
-    id: 43,
+    id: 47,
     name: '【完全保存版】MERNフルスタック開発で本格的なSNSアプリを１から自分の手で構築してみよう',
     category: ['fullstack'],
     period: '10時間',
@@ -491,7 +481,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'MERNフルスタック開発で面白そうだったため学習.',
   },
   {
-    id: 44,
+    id: 48,
     category: ['fullstack'],
     period: '5時間',
     platform: 'ShinCode_Camp',
@@ -501,7 +491,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'Prisma・Supabaseを使ってみたく、学習.',
   },
   {
-    id: 45,
+    id: 49,
     category: ['nextjs'],
     period: '1時間',
     platform: 'ShinCode_Camp',
@@ -511,7 +501,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'CSR/SSG/SSR/ISRを学んでみたく、学習.',
   },
   {
-    id: 46,
+    id: 50,
     name: '【Redux完全入門】絶対に理解させるReduxアルゴリズム徹底解説入門パック',
     category: ['react'],
     period: '3時間',
@@ -521,7 +511,7 @@ export const studyHistories: StudyHistoryType[] = [
     description: 'Reduxの理解が浅いと感じたため、しっかり学ふために学習.',
   },
   {
-    id: 47,
+    id: 51,
     name: '【フォーム開発実践】認証やお問い合わせフォームをNext.js/RHF/zod等のモダン技術を使って開発する実践講座',
     category: ['Nextjs'],
     period: '4時間',
@@ -532,7 +522,7 @@ export const studyHistories: StudyHistoryType[] = [
       '「Next.js」「react-hook-form」「zod」「shadcn/ui」を使ったフォームコンポーネント作成を学んでみたく、学習.',
   },
   {
-    id: 48,
+    id: 52,
     category: ['react'],
     period: '4時間',
     platform: 'ShinCode_Camp',
