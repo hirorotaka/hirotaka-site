@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
+import useSWR from 'swr';
+
 interface StudyHistoryCardProps {
   name?: string;
   period: string;
@@ -50,7 +52,8 @@ function StudyHistoryCard({
       if (!platformUrl) return;
       try {
         const response = await fetch(
-          `/api/ogp?url=${encodeURIComponent(platformUrl)}`
+          `/api/ogp?url=${encodeURIComponent(platformUrl)}`,
+          { cache: 'force-cache' }
         );
         const data = await response.json();
 
