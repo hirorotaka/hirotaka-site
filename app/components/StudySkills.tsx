@@ -1,19 +1,19 @@
-import { skills } from '@/constants/skills';
+import { studySkills } from '@/constants/skills';
 import Image from 'next/image';
 import React from 'react';
 import { AiFillBulb } from 'react-icons/ai';
 
-function Skills() {
+function StudySkills() {
   return (
     <section className="w-full px-6 py-10 bg-white" id="skills">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-lg font-medium text-gray-700 mb-8 flex items-center gap-2">
           <AiFillBulb className="text-cadetblue" />
-          スキル & 技術スタック
+          現在習得中のスキル
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {skills.map((skill, index) => (
+          {studySkills.map((skill, index) => (
             <div
               key={index}
               className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-colors"
@@ -45,7 +45,7 @@ function Skills() {
                 </p>
               )}
 
-              <p className="text-xs text-gray-500 mt-2">{skill.description}</p>
+              <p className="text-xs text-gray-500 mt-2 ">{skill.description}</p>
             </div>
           ))}
         </div>
@@ -54,4 +54,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default StudySkills;
