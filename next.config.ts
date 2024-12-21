@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
       'images-fe.ssl-images-amazon.com',
       'i.ytimg.com',
       'import.cdn.thinkific.com',
+      'hirotaka-site.vercel.app',
     ],
   },
 };
