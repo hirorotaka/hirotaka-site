@@ -4,12 +4,6 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24時間
-
-interface CacheData extends OgpData {
-  timestamp: number;
-}
-
 interface StudyHistoryCardProps {
   name?: string;
   period: string;
@@ -104,8 +98,6 @@ function StudyHistoryCard({
     }
     return ogImage;
   };
-
-  console.log(ogpData);
 
   if (!isVisible) {
     return (
