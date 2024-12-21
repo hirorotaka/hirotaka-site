@@ -169,8 +169,7 @@ export const studyHistories: StudyHistoryType[] = [
     period: '5時間',
     platform: 'youtube',
     imageIndex: 0,
-    platformUrl:
-      'https://www.youtube.com/watch?v=lZD1MIHwMBY&list=PLs3eD4QT7ow6O5wyRRnRCvB7JMuq_D3-D&ab_channel=%E3%81%A0%E3%82%8C%E3%81%A7%E3%82%82%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%2F%E5%B1%B1%E6%B5%A6%E6%B8%85%E9%80%8F',
+    platformUrl: 'https://youtu.be/lZD1MIHwMBY?si=Uj0ZMNqTw5mr3fCT',
     description: 'dockerの仕組みを学ぶために学習',
   },
   {
