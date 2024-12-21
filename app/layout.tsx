@@ -2,6 +2,7 @@ import { M_PLUS_1p } from 'next/font/google';
 import './globals.css';
 import SideMenu from './components/SideMenu';
 import TopMenu from './components/TopMenu';
+import { Toaster } from 'sonner';
 
 const m_PLUS_1p = M_PLUS_1p({
   subsets: ['latin'],
@@ -10,7 +11,7 @@ const m_PLUS_1p = M_PLUS_1p({
 });
 
 export const metadata = {
-  title: 'ORIGIN.Doc',
+  title: 'hirotaka portfolio',
   description: 'hirotakaのポートフォリオサイト',
 };
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: Props) {
           <section className="pl-[300px] max-lg:pl-[146px] max-md:pl-0 w-full min-h-screen overflow-hidden">
             <TopMenu />
             {children}
+            <Toaster position="top-center" />
           </section>
         </main>
       </body>
