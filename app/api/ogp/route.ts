@@ -11,7 +11,16 @@ export async function GET(request: Request) {
       return NextResponse.json({ error: 'URL is required', status: 400 });
     }
 
-    const { result } = await ogs({ url });
+    const options = {
+      url,
+      timeout: 10000, // 10秒でタイムアウト
+      headers: {
+        'user-agent':
+          'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+      },
+    };
+
+    const { result } = await ogs(options);
     return NextResponse.json(result);
   } catch (error) {
     return NextResponse.json({
