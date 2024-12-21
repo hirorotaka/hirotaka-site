@@ -66,7 +66,7 @@ export const skills: SkillType[] = [
   },
   {
     name: 'GitLab',
-    image: '/assets/skills/gitLab.png',
+    image: '/assets/skills/gitlab.png',
     years: '経験:3年',
     framework: '',
     description:
@@ -86,7 +86,7 @@ export const skills: SkillType[] = [
 export const studySkills: StudySkillType[] = [
   {
     name: 'React',
-    image: '/assets/skills/React.png',
+    image: '/assets/skills/react.png',
     years: '学習:1年',
     framework: 'React Router, Redux Toolkit',
     description:
@@ -102,7 +102,7 @@ export const studySkills: StudySkillType[] = [
   },
   {
     name: 'TypeScript',
-    image: '/assets/skills/typescript.png',
+    image: '/assets/skills/typeScript.png',
     years: '学習:1年',
     framework: '',
     description:
