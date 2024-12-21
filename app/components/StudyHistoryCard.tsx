@@ -4,6 +4,12 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
+const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24時間
+
+interface CacheData extends OgpData {
+  timestamp: number;
+}
+
 interface StudyHistoryCardProps {
   name?: string;
   period: string;
@@ -41,35 +47,55 @@ function StudyHistoryCard({
   const [isLoading, setIsLoading] = useState(true);
   const [isVisible, setIsVisible] = useState(false);
 
-  // OGPデータ取得できる場合は、そちらを優先
   useEffect(() => {
-    setIsLoading(true);
-    setIsVisible(false); // 新しいデータ取得時は非表示に
-
     const fetchOgpData = async () => {
       if (!platformUrl) return;
+
+      setIsLoading(true);
+      const cacheKey = `ogp_cache_${platformUrl}`;
+
       try {
+        // キャッシュチェック
+        const cached = localStorage.getItem(cacheKey);
+        if (cached) {
+          const data = JSON.parse(cached);
+          if (Date.now() - data.timestamp < 24 * 60 * 60 * 1000) {
+            // 24時間
+            delete data.timestamp;
+            setOgpData(data);
+            setIsVisible(true);
+            return;
+          }
+        }
+
+        // 新規取得
         const response = await fetch(
           `/api/ogp?url=${encodeURIComponent(platformUrl)}`,
           { cache: 'no-store', signal: AbortSignal.timeout(10000) }
         );
         const data = await response.json();
 
-        if (!response.ok) {
-          throw new Error(data.error);
-        }
-
+        // キャッシュ保存
+        localStorage.setItem(
+          cacheKey,
+          JSON.stringify({ ...data, timestamp: Date.now() })
+        );
         setOgpData(data);
-        setIsVisible(true); // データ取得成功後に表示
+        setIsVisible(true);
       } catch (error) {
         console.error('OGP fetch error:', error);
+        setOgpData({
+          ogTitle: name || '',
+          ogImage: '/assets/noimage.jpg',
+        });
+        setIsVisible(true);
       } finally {
         setIsLoading(false);
       }
     };
 
     fetchOgpData();
-  }, [platformUrl]);
+  }, [platformUrl, name]);
 
   const getImageUrl = (ogImage: OgpData['ogImage']) => {
     if (!ogImage) return '/assets/noimage.jpg';
