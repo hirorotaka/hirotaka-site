@@ -11,6 +11,7 @@ const projects = [
       'AIと音声認識を組み合わせた新しい言語学習プラットフォーム。ブラウザ上で音声をリアルタイムにテキスト化し、AIとの自然な会話を通じて語学学習ができます。カスタムAIキャラクターの作成や、複数言語対応など、革新的な学習体験を提供します。',
     image: '/portfolio/voiceChatzz.png',
     link: '/projects/voice-chatzz',
+    siteUrl: 'https://voice-chattz.com/',
   },
   {
     id: 2,
@@ -37,7 +38,7 @@ function Projects() {
           {projects.map((project, index) => (
             <div
               key={project.id}
-              className={`grid md:grid-cols-2 gap-12 items-center ${
+              className={`grid md:grid-cols-2 gap-4 items-center ${
                 index % 2 === 1 ? 'md:flex-row-reverse' : ''
               }`}
             >
@@ -61,13 +62,25 @@ function Projects() {
                 <p className="text-gray-600 leading-relaxed text-lg">
                   {project.description}
                 </p>
-                <div className="pt-4">
-                  <Link
-                    href={project.link}
-                    className="inline-block bg-black text-white px-8 py-3 rounded-lg hover:bg-black/90 hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out"
-                  >
-                    詳しく見る
-                  </Link>
+                <div className="flex space-x-4">
+                  <div className="pt-4">
+                    <Link
+                      href={project.link}
+                      className="inline-block bg-black text-white px-8 py-3 rounded-lg hover:bg-black/90 hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out"
+                    >
+                      詳しく見る
+                    </Link>
+                  </div>
+                  <div className="pt-4">
+                    <a
+                      href={project.siteUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block bg-black text-white px-8 py-3 rounded-lg hover:bg-black/90 hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out"
+                    >
+                      アプリを見る
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
