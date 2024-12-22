@@ -23,7 +23,7 @@ export default function ProjectLayout({
 
       {/* メインコンテンツ */}
       <section
-        className={`w-full min-h-screen overflow-hidden ${
+        className={`w-full min-h-dvh overflow-hidden ${
           isSideMenuOpen ? 'pl-[300px] max-lg:pl-[160px] max-md:pl-0' : 'pl-0'
         }`}
       >

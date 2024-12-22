@@ -3,7 +3,7 @@ import { sideMenuLinks } from '@/constants/sideMenuLinks';
 import { useMenuStore } from '@/store/useMenuStore';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaXTwitter } from 'react-icons/fa6';
 
 function ProjectSideMenu() {
@@ -12,6 +12,15 @@ function ProjectSideMenu() {
   const handleLinkClick = () => {
     closeMobileMenu();
   };
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflowY = 'hidden';
+    } else {
+      document.body.style.overflowY = 'auto';
+    }
+  }, [isOpen]);
+
   return (
     <section
       className={`fixed left-0 top-0 z-50 flex h-screen lg:w-[300px] flex-col justify-between py-10 px-[20px] lg:px-[80px] w-[160px] bg-white border-r

@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export default function ProjectPage() {
   return (
-    <div className="max-w-7xl px-8 py-16">
+    <div className="bg-whitesmoke max-w-7xl px-8 py-16">
       {/* プロジェクト概要 */}
       <section id="overview" className="mb-16">
         <h1 className="text-5xl font-bold mb-6">アプリ名：voice Chatzz</h1>
@@ -25,7 +25,7 @@ export default function ProjectPage() {
             target="_blank"
             className="bg-black text-white px-2 py-3 rounded-lg hover:bg-black/90"
           >
-            サイトを見る
+            アプリを見る
           </Link>
           <Link
             href="https://github.com/yourusername/voice-chatzz"
