@@ -14,7 +14,7 @@ function TopMenu() {
       className="px-[40px] bg-whitesmoke py-4 z-10 max-xs:px-5"
       id="home"
     >
-      <div className="max-w-7xl mx-auto flex flex-col justify-between items-center gap-5">
+      <div className="max-w-7xl flex flex-col justify-between items-center gap-5">
         {/* 上 */}
         <div className="flex justify-between items-center w-full">
           <Link href={'/'}>

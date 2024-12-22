@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { sideMenuLinks, SideMenuLinksType } from '@/constants/sideMenuLinks';
 import { useMenuStore } from '@/store/useMenuStore';
 import ProjectSideMenu from '@/app/components/ProjectSideMenu';
+import TopMenu from '@/app/components/TopMenu';
 
 export default function ProjectLayout({
   children,
@@ -40,6 +41,7 @@ export default function ProjectLayout({
 
       {/* メインコンテンツ */}
       <section className="pl-[300px] max-lg:pl-[146px] max-md:pl-0 w-full min-h-screen overflow-hidden">
+        <TopMenu />
         {children}
       </section>
     </main>

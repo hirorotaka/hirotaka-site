@@ -75,7 +75,9 @@ function SideMenu() {
             `}
                 onClick={() => handleLinkClick(link)}
               >
-                <p>{link.label}</p>
+                <p className="text-xs sm:text-base font-semibold">
+                  {link.label}
+                </p>
               </a>
             );
           })}

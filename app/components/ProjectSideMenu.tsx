@@ -49,7 +49,9 @@ function ProjectSideMenu({
               `}
                 onClick={() => handleLinkClick(link)}
               >
-                <p>{link.label}</p>
+                <p className="text-xs sm:text-base font-semibold">
+                  {link.label}
+                </p>
               </Link>
             );
           })}
@@ -66,7 +68,7 @@ function ProjectSideMenu({
               <FaXTwitter />
             </Link>
           </div>
-          <p className="max-lg:hidden">© 2024 takada hiroki portfolio</p>
+          <p className="max-lg:hidden">© 2024 hirotaka portfolio</p>
         </div>
       </div>
     </section>
