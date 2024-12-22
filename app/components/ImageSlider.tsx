@@ -33,7 +33,7 @@ function ImageSlider({
       <div className="w-full bg-gray-500 text-white p-2 text-center text-lg rounded-t-lg">
         {title}
       </div>
-      <div className="relative group">
+      <div className="relative">
         {/* スライダー本体 */}
         <div className="overflow-hidden" ref={emblaRef}>
           <div className="flex touch-pan-y">
@@ -70,7 +70,7 @@ function ImageSlider({
 
         {/* オーバーレイ */}
         {slides.length > 1 && showOverlay && (
-          <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10 pointer-events-none">
+          <div className="absolute inset-0 bg-black/30 flex items-center justify-center z-10 pointer-events-none">
             <div className="bg-white/90 px-6 py-3 rounded-lg shadow-lg flex items-center gap-4">
               <span className="text-2xl">←</span>
               <span className="text-gray-800">横にスワイプしてください</span>
