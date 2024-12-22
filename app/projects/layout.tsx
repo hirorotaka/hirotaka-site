@@ -92,7 +92,7 @@ export default function ProjectLayout({
         </section>
 
         {/* メインコンテンツ */}
-        <section className="pl-[300px] max-lg:pl-[146px] max-md:pl-0 w-full min-h-screen">
+        <section className="w-full min-h-screen overflow-hidden">
           {children}
         </section>
       </main>
