@@ -1,7 +1,31 @@
-import Image from 'next/image';
+import ImageSlider from '@/app/components/ImageSlider';
 import Link from 'next/link';
 
 export default function ProjectPage() {
+  const beforeLoginSlides = [
+    {
+      image: '/portfolio/voiceChatzz.png',
+      description:
+        'ログイン前のホーム画面です。アプリの主な機能や特徴を紹介しています。',
+    },
+    {
+      image: '/portfolio/voiceChatzz.png',
+      description: '新規登録画面では、簡単な操作で学習を始められます。',
+    },
+  ];
+
+  const afterLoginSlides = [
+    {
+      image: '/portfolio/voiceChatzz.png',
+      description:
+        'ログイン後のメイン画面です。AIとの会話練習がすぐに始められます。',
+    },
+    {
+      image: '/portfolio/voiceChatzz.png',
+      description: '学習履歴や進捗状況を確認できるダッシュボード画面です。',
+    },
+  ];
+
   return (
     <div className="max-w-7xl px-8 py-16">
       {/* プロジェクト概要 */}
@@ -10,37 +34,8 @@ export default function ProjectPage() {
 
         {/* アプリ画像セクション - 2カラムグリッド */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full mb-8">
-          {/* ログイン前の画面 */}
-          <div>
-            <div className="w-full bg-gray-500 text-white p-2 text-center text-lg rounded-t-lg">
-              ログイン前の画面
-            </div>
-            <div className="relative w-full">
-              <Image
-                src="/portfolio/voiceChatzz.png"
-                alt="voice Chatzz ログイン前"
-                width={1300}
-                height={700}
-                className="object-contain w-full"
-              />
-            </div>
-          </div>
-
-          {/* ログイン後の画面 */}
-          <div>
-            <div className="w-full bg-gray-500 text-white p-2 text-center  text-lg rounded-t-lg">
-              ログイン後の画面
-            </div>
-            <div className="relative w-full">
-              <Image
-                src="/portfolio/voiceChatzz.png"
-                alt="voice Chatzz ログイン後"
-                width={1300}
-                height={700}
-                className="object-contain w-full"
-              />
-            </div>
-          </div>
+          <ImageSlider slides={beforeLoginSlides} title="ログイン前の画面" />
+          <ImageSlider slides={afterLoginSlides} title="ログイン後の画面" />
         </div>
 
         {/* ボタンセクション */}
