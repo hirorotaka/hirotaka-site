@@ -13,14 +13,14 @@ function Hero() {
             <h1 className="font-medium">web engineer</h1>
             <span className="font-bold text-cadetblue">Development</span>
             <h2>hirotaka</h2>
-            <p className="mt-5 text-base">
+            <p className="mt-5 text-xs sm:text-base">
               「Webエンジニアとして新たなチャレンジを求めています。」
               <br />
               「技術力を活かせる環境で、さらなる成長を目指しています。」
             </p>
           </div>
 
-          <div className="flex gap-4 max-md:justify-center">
+          <div className="text-xs sm:text-base flex gap-4 max-md:justify-center">
             <Link href={'#skills'}>
               <button className="bg-darkblue text-white px-2 rounded-md py-1 hover:bg-darkblue/75 cursor-pointer lg:px-4">
                 使用言語

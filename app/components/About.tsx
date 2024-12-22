@@ -30,7 +30,7 @@ function About() {
         </div>
         {/* メイン文 */}
         <div className="mt-7">
-          <p className="mt-6 text-gray-600 text-lg md:text-xl leading-9">
+          <p className="mt-6 text-gray-600 text-sm sm:text-base md:text-xl leading-6 sm:leading-9">
             はじめまして！長崎県出身で、現在は佐賀県で暮らしている
             <span className="font-bold">hirotaka</span>
             と申します。趣味でアプリやシステム開発を楽しんでいます。
@@ -54,7 +54,9 @@ function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* 技術資格グループ */}
             <div className="space-y-3">
-              <h4 className="text-lg font-medium text-gray-600">技術資格</h4>
+              <h4 className="text-sm sm:text-lg font-medium text-gray-600">
+                技術資格
+              </h4>
               <ul className="list-disc list-inside text-gray-600 space-y-2 pl-2">
                 {awsCertificates.map((cert) => (
                   <li key={cert.id}>

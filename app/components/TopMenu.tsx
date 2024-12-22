@@ -18,7 +18,7 @@ function TopMenu() {
         {/* 上 */}
         <div className="flex justify-between items-center w-full">
           <Link href={'/'}>
-            <h1 className="font-bold text-3xl text-cadetblue">
+            <h1 className="text-lg font-bold sm:text-3xl text-cadetblue">
               {`hirotaka's　ポートフォリオサイト`}
             </h1>
           </Link>

@@ -30,8 +30,10 @@ function Projects() {
       id="projects"
     >
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-5xl font-bold text-center mb-16">
-          プロジェクト（個人開発アプリ）
+        <h1 className="text-3xl sm:text-5xl font-bold text-center mb-4 sm:mb-16">
+          プロジェクト
+          <br />
+          （個人開発アプリ）
         </h1>
 
         <div className="space-y-40">
