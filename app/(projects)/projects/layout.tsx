@@ -29,7 +29,7 @@ export default function ProjectLayout({
       >
         <div className="flex w-full">
           <button
-            className="p-2 bg-white rounded-r shadow-lg hover:bg-gray-100 transition-all duration-300 ease-in-out sm:hidden md:block
+            className="p-2 bg-white rounded-r shadow-lg hover:bg-gray-100 transition-all duration-300 ease-in-out hidden md:block
               "
             onClick={handleClickOpenSideMenu}
           >

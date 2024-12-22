@@ -48,7 +48,7 @@ function SideMenu() {
 
   return (
     <section
-      className={`fixed left-0 top-0 z-50 flex h-screen max-w-[300px] flex-col justify-between py-10 px-[20px] lg:px-[80px] max-lg:max-w-[146px] bg-white border-r
+      className={`fixed left-0 top-0 z-50 flex h-screen lg:w-[300px] w-[170px] flex-col justify-between py-10 px-[20px] lg:px-[80px] bg-white border-r
      ${isOpen ? 'max-lg:block' : 'max-md:hidden'}`}
     >
       <div className="flex w-full flex-1 flex-col gap-10 justify-between items-center">
