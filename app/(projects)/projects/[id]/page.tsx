@@ -1,32 +1,11 @@
 import ImageSlider from '@/app/components/ImageSlider';
+import {
+  afterLoginSlides,
+  beforeLoginSlides,
+} from '@/constants/imageSliderDescription';
 import Link from 'next/link';
 
 export default function ProjectPage() {
-  const beforeLoginSlides = [
-    {
-      image: '/portfolio/voiceChatzz.png',
-      description:
-        'ログイン前のホーム画面です。アプリの主な機能や特徴を紹介しています。',
-    },
-    {
-      image: '/portfolio/voiceChatzz.png',
-      description:
-        '新規登録画面では、簡単な操作で学習を始められます。新規登録画面では、簡単な操作で学習を始められます。新規登録画面では、簡単な操作で学習を始められます。新規登録画面では、新規登録画面では、簡単な操作で学習を始められます。新規登録画面では、簡単な操作で学習を始められます。新規登録画面では、簡単な操作で学習を始められます。',
-    },
-  ];
-
-  const afterLoginSlides = [
-    {
-      image: '/portfolio/voiceChatzz.png',
-      description:
-        'ログイン後のメイン画面です。AIとの会話練習がすぐに始められます。',
-    },
-    {
-      image: '/portfolio/voiceChatzz.png',
-      description: '学習履歴や進捗状況を確認できるダッシュボード画面です。',
-    },
-  ];
-
   return (
     <div className="max-w-7xl px-8 py-16">
       {/* プロジェクト概要 */}
@@ -59,9 +38,9 @@ export default function ProjectPage() {
 
         {/* 説明文 */}
         <div className="prose max-w-none">
+          <h2 className="text-3xl font-bold mb-6">アプリ概要</h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-            AIと音声認識を組み合わせた新しい言語学習プラットフォーム。
-            ブラウザ上で音声をリアルタイムにテキスト化し、AIとの自然な会話を通じて語学学習ができます。
+            ブラウザ上から音声を録音して、音声をリアルタイムにテキスト化し、AIが音声と文字を返答してやり取りが出来るアプリ。
           </p>
         </div>
       </section>
