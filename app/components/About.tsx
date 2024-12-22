@@ -59,7 +59,7 @@ function About() {
               </h4>
               <ul className="list-disc list-inside text-gray-600 space-y-2 pl-2">
                 {awsCertificates.map((cert) => (
-                  <li key={cert.id}>
+                  <li key={cert.id} className="text-xs sm:text-sm md:text-base">
                     {cert.name} ({cert.code})
                   </li>
                 ))}
@@ -68,10 +68,14 @@ function About() {
 
             {/* 業務・その他資格グループ */}
             <div className="space-y-3">
-              <h4 className="text-lg font-medium text-gray-600">その他資格</h4>
+              <h4 className="text-sm sm:text-lg font-medium text-gray-600">
+                その他資格
+              </h4>
               <ul className="list-disc list-inside text-gray-600 space-y-2 pl-2">
                 {displayedCertificates.map((cert) => (
-                  <li key={cert.id}>{cert.name}</li>
+                  <li key={cert.id} className="text-xs sm:text-sm md:text-base">
+                    {cert.name}
+                  </li>
                 ))}
               </ul>
 
