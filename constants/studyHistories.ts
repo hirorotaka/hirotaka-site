@@ -531,4 +531,14 @@ export const studyHistories: StudyHistoryType[] = [
       'https://code-s-school-5bc2.thinkific.com/courses/react-trello-react',
     description: 'Reactでドラッグアンドドロップを学んでみたく、学習.',
   },
+  {
+    id: 53,
+    category: ['nextjs'],
+    period: '6時間',
+    platform: 'kindle',
+    imageIndex: 4,
+    platformUrl:
+      'https://www.amazon.co.jp/Next-js%EF%BC%8B%E3%83%98%E3%83%83%E3%83%89%E3%83%AC%E3%82%B9CMS%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%EF%BC%81-%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%83%A2%E3%83%80%E3%83%B3Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C%E5%85%A5%E9%96%80-%E9%AB%98%E9%80%9F%E3%81%A7%E3%80%81%E5%AE%89%E5%85%A8%E3%81%A7%E3%80%81%E9%81%8B%E7%94%A8%E3%81%97%E3%82%84%E3%81%99%E3%81%84%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E3%81%A4%E3%81%8F%E3%82%8A%E3%81%8B%E3%81%9F-%E6%9F%B4%E7%94%B0-%E5%92%8C%E7%A5%88/dp/4798183660',
+    description: 'NextjsとmicromCMSでホームページを作ってみたく、学習.',
+  },
 ];
