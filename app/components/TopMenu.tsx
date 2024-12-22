@@ -11,7 +11,7 @@ function TopMenu() {
 
   return (
     <section
-      className="px-[40px] bg-whitesmoke py-4 z-10 max-xs:px-5"
+      className="px-[40px] bg-whitesmoke py-4 z-10 max-xs:px-5 w-full"
       id="home"
     >
       <div className="max-w-7xl flex flex-col justify-between items-center gap-5">

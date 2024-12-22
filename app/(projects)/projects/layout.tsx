@@ -1,47 +1,46 @@
-// app/projects/[id]/layout.tsx
 'use client';
-import React, { useEffect, useState } from 'react';
-import { sideMenuLinks, SideMenuLinksType } from '@/constants/sideMenuLinks';
-import { useMenuStore } from '@/store/useMenuStore';
+import React, { useState } from 'react';
 import ProjectSideMenu from '@/app/components/ProjectSideMenu';
 import TopMenu from '@/app/components/TopMenu';
+import { BiChevronLeft, BiChevronRight } from 'react-icons/bi';
 
 export default function ProjectLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const { isOpen, closeMobileMenu } = useMenuStore();
-  const [activeLink, setActiveLink] = useState<SideMenuLinksType>(
-    sideMenuLinks[0]
-  );
+  const [isSideMenuOpen, setIsSideMenuOpen] = useState(true);
 
-  const handleLinkClick = (link: SideMenuLinksType) => {
-    closeMobileMenu();
-    setActiveLink(link);
+  const handleClickOpenSideMenu = () => {
+    setIsSideMenuOpen(!isSideMenuOpen);
   };
-
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflowY = 'hidden';
-    } else {
-      document.body.style.overflowY = 'auto';
-    }
-  }, [isOpen]);
 
   return (
     <main className="flex flex-row">
       {/* サイドメニュー */}
-      <ProjectSideMenu
-        isOpen={isOpen}
-        closeMobileMenu={closeMobileMenu}
-        handleLinkClick={handleLinkClick}
-        activeLink={activeLink}
-      />
+
+      {isSideMenuOpen && <ProjectSideMenu />}
 
       {/* メインコンテンツ */}
-      <section className="pl-[300px] max-lg:pl-[146px] max-md:pl-0 w-full min-h-screen overflow-hidden">
-        <TopMenu />
+      <section
+        className={`w-full min-h-screen overflow-hidden ${
+          isSideMenuOpen ? 'pl-[300px] max-lg:pl-[160px] max-md:pl-0' : 'pl-0'
+        }`}
+      >
+        <div className="flex w-full">
+          <button
+            className="p-2 bg-white rounded-r shadow-lg hover:bg-gray-100 transition-all duration-300 ease-in-out sm:hidden md:block
+              "
+            onClick={handleClickOpenSideMenu}
+          >
+            {isSideMenuOpen ? (
+              <BiChevronLeft className="w-6 h-6" />
+            ) : (
+              <BiChevronRight className="w-6 h-6" />
+            )}
+          </button>
+          <TopMenu />
+        </div>
         {children}
       </section>
     </main>

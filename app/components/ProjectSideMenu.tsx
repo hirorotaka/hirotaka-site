@@ -1,25 +1,20 @@
-import { sideMenuLinks, SideMenuLinksType } from '@/constants/sideMenuLinks';
+'use client';
+import { sideMenuLinks } from '@/constants/sideMenuLinks';
+import { useMenuStore } from '@/store/useMenuStore';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FaXTwitter } from 'react-icons/fa6';
 
-interface ProjectSideMenuProps {
-  isOpen: boolean;
-  handleLinkClick: (link: SideMenuLinksType) => void;
-  closeMobileMenu: () => void;
-  activeLink: SideMenuLinksType;
-}
+function ProjectSideMenu() {
+  const { isOpen, closeMobileMenu } = useMenuStore();
 
-function ProjectSideMenu({
-  isOpen,
-  closeMobileMenu,
-  handleLinkClick,
-  activeLink,
-}: ProjectSideMenuProps) {
+  const handleLinkClick = () => {
+    closeMobileMenu();
+  };
   return (
     <section
-      className={`fixed left-0 top-0 z-50 flex h-screen max-w-[300px] flex-col justify-between py-10 px-[20px] lg:px-[80px] max-lg:max-w-[146px] bg-white border-r
+      className={`fixed left-0 top-0 z-50 flex h-screen lg:w-[300px] flex-col justify-between py-10 px-[20px] lg:px-[80px] w-[160px] bg-white border-r
     ${isOpen ? 'max-lg:block' : 'max-md:hidden'}`}
     >
       <div className="flex w-full flex-1 flex-col gap-10 justify-between items-center">
@@ -39,19 +34,14 @@ function ProjectSideMenu({
         {/* サイトメニュー */}
         <div>
           {sideMenuLinks.map((link) => {
-            const isActive = activeLink === link;
             return (
               <Link
                 key={link.label}
                 href={link.route === '/' ? '/' : `/${link.route}`}
-                className={`relative flex justify-center rounded-lg p-3
-                ${isActive ? 'bg-cadetblue text-white' : ''}
-              `}
-                onClick={() => handleLinkClick(link)}
+                className={`relative flex justify-center rounded-lg p-3`}
+                onClick={handleLinkClick}
               >
-                <p className="text-xs sm:text-base font-semibold">
-                  {link.label}
-                </p>
+                <p className="text-xs sm:text-sm font-semibold">{link.label}</p>
               </Link>
             );
           })}
