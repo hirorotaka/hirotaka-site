@@ -29,7 +29,7 @@ function ImageSlider({
   }, [emblaApi]);
 
   return (
-    <div>
+    <div className="shadow-lg">
       <div className="w-full bg-gray-500 text-white p-2 text-center text-lg rounded-t-lg">
         {title}
       </div>
@@ -81,8 +81,10 @@ function ImageSlider({
       </div>
 
       {/* 説明文 */}
-      <div className="pt-1 bg-gray-50 rounded-lg h-16">
-        <p className="text-gray-700">{slides[selectedIndex].description}</p>
+      <div className="p-2 bg-gray-50 rounded-b-lg h-24 overflow-y-auto">
+        <p className="text-gray-700 text-sm">
+          {slides[selectedIndex].description}
+        </p>
       </div>
     </div>
   );
