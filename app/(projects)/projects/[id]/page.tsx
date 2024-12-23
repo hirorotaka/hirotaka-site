@@ -10,7 +10,9 @@ export default function ProjectPage() {
     <div className="bg-whitesmoke max-w-7xl px-8 py-16">
       {/* プロジェクト概要 */}
       <section id="overview" className="mb-16">
-        <h1 className="text-5xl font-bold mb-6">アプリ名：voice Chatzz</h1>
+        <h1 className="text-2xl sm:text-5xl font-bold mb-6">
+          アプリ名：voice Chatzz
+        </h1>
 
         {/* アプリ画像セクション - 2カラムグリッド */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full mb-8">
@@ -38,7 +40,7 @@ export default function ProjectPage() {
 
         {/* 説明文 */}
         <div className="prose max-w-none">
-          <h2 className="text-3xl font-bold mb-6">アプリ概要</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-6">アプリ概要</h2>
           <p className="text-lg text-gray-600 leading-relaxed">
             ブラウザ上から音声を録音して、音声をリアルタイムにテキスト化し、AIが音声と文字を返答してやり取りが出来るアプリ。
           </p>
@@ -47,7 +49,7 @@ export default function ProjectPage() {
 
       {/* 開発の背景 */}
       <section id="background" className="mb-16">
-        <h2 className="text-3xl font-bold mb-6">開発の背景</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold mb-6">開発の背景</h2>
         <div className="prose max-w-none">
           <p className="text-lg text-gray-600 leading-relaxed">
             既存の語学学習アプリの課題点や、開発に至った経緯について説明...
@@ -57,7 +59,7 @@ export default function ProjectPage() {
 
       {/* 使用技術 */}
       <section id="tech" className="mb-16">
-        <h2 className="text-3xl font-bold mb-6">使用技術</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold mb-6">使用技術</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-xl font-semibold mb-4">フロントエンド</h3>
