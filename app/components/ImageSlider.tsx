@@ -68,13 +68,60 @@ function ImageSlider({
           </div>
         )}
 
-        {/* オーバーレイ */}
+        {/* オーバーレイ（アニメーション付き） */}
         {slides.length > 1 && showOverlay && (
           <div className="absolute inset-0 bg-black/30 flex items-center justify-center z-10 pointer-events-none">
-            <div className="bg-white/90 px-6 py-3 rounded-lg shadow-lg flex items-center gap-4">
-              <span className="text-2xl">←</span>
-              <span className="text-gray-800">横にスワイプしてください</span>
-              <span className="text-2xl">→</span>
+            <div className="bg-white/90 px-6 py-3 rounded-lg shadow-lg">
+              <div className="flex items-center gap-2">
+                <svg
+                  className="w-5 h-5 text-gray-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                  />
+                </svg>
+                <div className="flex items-center gap-2">
+                  <div className="relative overflow-hidden w-6">
+                    <div className="animate-swipe">
+                      <svg
+                        className="w-6 h-6 text-gray-600"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <span className="text-gray-600">
+                    横にスワイプしてください
+                  </span>
+                </div>
+                <svg
+                  className="w-5 h-5 text-gray-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
         )}

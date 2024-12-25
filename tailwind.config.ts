@@ -18,6 +18,15 @@ export default {
         cadetblue: '#5f9ea0',
         whitesmoke: '#f5f5f5',
       },
+      keyframes: {
+        swipe: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        swipe: 'swipe 2.0s ease-in-out infinite',
+      },
     },
   },
   plugins: [],
