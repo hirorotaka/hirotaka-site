@@ -29,7 +29,7 @@ function ImageSlider({
   }, [emblaApi]);
 
   return (
-    <div className="shadow-lg">
+    <div className="shadow-lg max-w-5xl">
       <div className="w-full bg-gray-500 text-white p-2 text-center text-lg rounded-t-lg">
         {title}
       </div>
@@ -40,14 +40,14 @@ function ImageSlider({
             {slides.map((slide, index) => (
               <div
                 key={index}
-                className="relative flex-[0_0_100%] min-w-[100%]"
+                className="relative flex-[0_0_100%] flex items-center justify-center"
               >
                 <Image
                   src={slide.image}
                   alt={`${title} ${index + 1}`}
                   width={1300}
-                  height={700}
-                  className="object-contain w-full"
+                  height={750}
+                  className="object-contain w-auto h-auto max-h-full"
                 />
               </div>
             ))}
@@ -56,7 +56,7 @@ function ImageSlider({
 
         {/* インジケーター */}
         {slides.length > 1 && (
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 z-20">
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-2 z-20">
             {slides.map((_, index) => (
               <div
                 key={index}
@@ -129,7 +129,7 @@ function ImageSlider({
 
       {/* 説明文 */}
       <div className="p-2 bg-gray-50 rounded-b-lg h-24 overflow-y-auto">
-        <p className="text-gray-700 text-sm">
+        <p className="text-gray-700 text-sm sm:text-base">
           {slides[selectedIndex].description}
         </p>
       </div>
