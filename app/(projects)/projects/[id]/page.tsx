@@ -4,6 +4,7 @@ import {
   afterLoginSlides,
   beforeLoginSlides,
 } from '@/constants/imageSliderDescription';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function ProjectPage() {
@@ -118,6 +119,19 @@ export default function ProjectPage() {
               </ul>
             </div>
             {/* 他の技術カテゴリー */}
+          </div>
+        </section>
+        {/* ER図 */}
+        <section id="er-drawio" className="mb-16">
+          <h2 className="text-3xl font-bold mb-6">ER図</h2>
+          <div className="relative w-full">
+            <Image
+              src="/er-drawio.png" // または .png
+              alt="ER Diagram"
+              width={800}
+              height={600}
+              className="w-full h-auto"
+            />
           </div>
         </section>
 
