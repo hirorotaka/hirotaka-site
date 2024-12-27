@@ -243,7 +243,7 @@ export default function ProjectPage() {
               <p className="text-gray-600">
                 とにかくユーザーがストレスなく、サクサクと使えるUI/UXの実装を図りました。
               </p>
-              <ul className="list-disc pl-5 mt-2">
+              <ul className="list-disc pl-5 mt-2 text-gray-600">
                 <li>メニューなどはサイドバーにすべて配置</li>
                 <li>得たい情報が視覚的にパッと目につくようなページ構成</li>
                 <li>画面全体の読み込みやスクロールをできるだけ減らす</li>
@@ -296,7 +296,7 @@ export default function ProjectPage() {
           <h2 className="text-3xl font-bold mb-6">今後の展望</h2>
           <div className="mb-4">
             <h3 className="text-xl font-semibold mb-3">改善点</h3>
-            <ul className="list-disc pl-5 mt-2">
+            <ul className="list-disc pl-5 mt-2 text-gray-600">
               <li>
                 AIとの会話なので、もっとテンポよく会話できるようにする。入力トークン数の制限などでレイテンシーの改善
               </li>
@@ -314,7 +314,7 @@ export default function ProjectPage() {
           </div>
           <div className="mb-4">
             <h3 className="text-xl font-semibold mb-3">追加機能</h3>
-            <ul className="list-disc pl-5 mt-2">
+            <ul className="list-disc pl-5 mt-2 text-gray-600">
               <li>
                 ブラウザ間で直接リアルタイムな通信を可能にするWeb標準技術(webRTC)を組み込むことが出来れば、リアルタイムでのやり取りができるようになりそうと考えている。現在技術的に知見がないので、現在は未実装となっている。今後勉強してみて実装したい。
               </li>
