@@ -25,20 +25,20 @@ export default function ProjectPage() {
 
           {/* ボタンセクション */}
           <div className="flex gap-4 mb-8">
-            <Link
-              href="https://voice-chatzz.vercel.app/"
+            <a
+              href="https://voice-chattz.com/"
               target="_blank"
               className="bg-black text-white px-2 py-3 rounded-lg hover:bg-black/90"
             >
               アプリを見る
-            </Link>
-            <Link
-              href="https://github.com/yourusername/voice-chatzz"
+            </a>
+            <a
+              href="https://github.com/hirorotaka/voice-chattz"
               target="_blank"
               className="border border-black px-6 py-3 rounded-lg hover:bg-gray-50"
             >
               ソースコード
-            </Link>
+            </a>
           </div>
 
           {/* 説明文 */}
