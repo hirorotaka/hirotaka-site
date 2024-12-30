@@ -5,7 +5,6 @@ import {
   beforeLoginSlides,
 } from '@/constants/imageSliderDescription';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function ProjectPage() {
   return (

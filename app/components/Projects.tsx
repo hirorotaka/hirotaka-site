@@ -13,14 +13,6 @@ const projects = [
     link: '/projects/voice-chatzz',
     siteUrl: 'https://voice-chattz.com/',
   },
-  {
-    id: 2,
-    title: 'ポートフォリオサイト',
-    description:
-      'Next.jsのApp Routerを活用して開発した個人ポートフォリオサイトです。API Routesを実装してOGPデータを動的に取得し、学習履歴をリッチなカード形式で表示。シンプルながら現代的なWeb技術を取り入れた、使いやすいポートフォリオを目指しました。',
-    image: '/portfolio/voiceChatzz.png',
-    link: '/projects/portfolio',
-  },
 ];
 
 function Projects() {
