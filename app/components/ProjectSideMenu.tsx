@@ -58,16 +58,7 @@ function ProjectSideMenu() {
 
         {/* 下部SNSリンクとコピーライト */}
         <div className="flex flex-col items-center justify-center text-center">
-          <div className="flex flex-col lg:flex-row items-center gap-4 mb-3">
-            <Link
-              href="https://x.com/hirotaka221231"
-              target="_blank"
-              className="bg-darkblue p-2 rounded-full cursor-pointer hover:bg-darkblue/75 text-white"
-            >
-              <FaXTwitter />
-            </Link>
-          </div>
-          <p className="max-lg:hidden">© 2024 hirotaka portfolio</p>
+          <p className="max-lg:hidden">© 2025 hirotaka portfolio</p>
         </div>
       </div>
     </section>
