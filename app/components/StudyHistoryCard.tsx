@@ -31,7 +31,7 @@ function StudyHistoryCard({
   imageIndex,
 }: StudyHistoryCardProps) {
   const [ogpData, setOgpData] = useState<OgpData | null>({
-    ogTitle: '',
+    ogTitle: name || '',
     ogDescription: '',
     ogImage: '/assets/noimage.jpg',
     ogUrl: '',
@@ -130,7 +130,7 @@ function StudyHistoryCard({
             {/* テキストコンテンツ（2/3幅） */}
             <div className="col-span-2">
               <h3 className="text-base font-medium text-gray-900 mb-1">
-                {ogpData?.ogTitle || name}
+                {name || ogpData?.ogTitle}
               </h3>
               <div className="flex items-center gap-2 text-sm">
                 <span className="px-2 py-0.5 bg-gray-100 rounded text-gray-600">
