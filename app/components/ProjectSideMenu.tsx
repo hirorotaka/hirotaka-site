@@ -4,7 +4,6 @@ import { useMenuStore } from '@/store/useMenuStore';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect } from 'react';
-import { FaXTwitter } from 'react-icons/fa6';
 
 function ProjectSideMenu() {
   const { isOpen, closeMobileMenu } = useMenuStore();
