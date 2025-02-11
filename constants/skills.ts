@@ -37,7 +37,7 @@ export const skills: SkillType[] = [
     name: 'Javascript',
     image: '/assets/skills/js.png',
     years: '経験:3年',
-    framework: 'library Vue(0.5年)／jQuery(3年)',
+    framework: 'library jQuery(3年)',
     description:
       'フロント側でのバリデーションや動的なコンポーネントを作成しました。業務改善ツールとしてのchrome拡張機能やブックマークレットを作成の経験があります',
   },
@@ -47,7 +47,7 @@ export const skills: SkillType[] = [
     years: '経験:3年',
     framework: '',
     description:
-      'PHPフルスクラッチでのWEBアンケートの作成・認証・データ連携などの経験があります。',
+      'PHPフルスクラッチでのWEBアンケートの作成・Webサイトの構築に従事。認証・データ連携などの経験があります。',
   },
   {
     name: 'Ruby',
