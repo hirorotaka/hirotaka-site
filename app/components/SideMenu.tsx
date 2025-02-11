@@ -2,9 +2,7 @@
 import { sideMenuLinks, SideMenuLinksType } from '@/constants/sideMenuLinks';
 import { useMenuStore } from '@/store/useMenuStore';
 import Image from 'next/image';
-import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import { FaXTwitter } from 'react-icons/fa6';
 
 function SideMenu() {
   const { isOpen, closeMobileMenu } = useMenuStore();

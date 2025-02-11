@@ -4,7 +4,6 @@ import React, { ChangeEvent, FormEvent, useRef, useState } from 'react';
 import { AiFillBulb } from 'react-icons/ai';
 import emailjs from '@emailjs/browser';
 import { toast } from 'sonner';
-import { FaXTwitter } from 'react-icons/fa6';
 
 // フォームの要素の型を定義
 interface ContactFormElements extends HTMLFormControlsCollection {
@@ -155,7 +154,7 @@ function Contact() {
                 <button
                   type="submit"
                   disabled={!isFormValid()}
-                  className={`bg-darkblue text-white font-medium py-3 px-6 rounded hover:shadow-lg 
+                  className={`bg-darkblue text-white font-medium py-3 px-6 rounded hover:shadow-lg
               ${
                 !isFormValid()
                   ? 'opacity-50 cursor-not-allowed'
