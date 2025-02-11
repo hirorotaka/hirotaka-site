@@ -110,21 +110,6 @@ function Contact() {
               <br />
               メッセージには可能な限り早く返信させていただきます。
             </p>
-
-            {/* sns */}
-            <div className="mt-12">
-              <div className="flex flex-col gap-2">
-                <h5>SNS</h5>
-                <div className="flex gap-5">
-                  <a
-                    href="https://x.com/hirotaka221231"
-                    className="text-3xl text-darkblue"
-                  >
-                    <FaXTwitter />
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* 右下メールフォーム */}
