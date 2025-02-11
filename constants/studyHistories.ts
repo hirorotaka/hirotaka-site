@@ -29,6 +29,7 @@ export const studyHistories: StudyHistoryType[] = [
       'https://www.amazon.co.jp/Next-js-Server-Actions%E3%81%A7%E3%81%A4%E3%81%8F%E3%82%8B%E3%83%95%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF%E3%82%A2%E3%83%97%E3%83%AA-%E6%99%82%E7%9F%AD%E3%81%A7%E6%9C%AC%E6%A0%BC%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E9%96%8B%E7%99%BA%E3%81%A7%E3%81%8D%E3%82%8B%E6%9C%AC-Next-js%E3%83%95%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF-ebook/dp/B0DMQLP8Z9',
     description:
       'Server Actionsを主に学習。Next.jsの基本的な構成要素を理解し、実際にアプリケーションを作成してみる。',
+    name: 'Next.js Server Actionsでつくるフルスタックアプリ: 時短で本格アプリケーションを開発できる本 Next.jsフルスタック | 三好アキ | 一般・入門書 | Kindleストア | Amazon',
   },
   {
     id: 3,
@@ -60,6 +61,7 @@ export const studyHistories: StudyHistoryType[] = [
       'https://www.amazon.co.jp/Next-js%E3%81%A7%E3%81%A4%E3%81%8F%E3%82%8B%E3%83%95%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF%E3%82%A2%E3%83%97%E3%83%AA-%E5%89%8D%E7%B7%A8%EF%BC%88%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89%E9%96%8B%E7%99%BA%EF%BC%89-%E8%87%AA%E5%88%86%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%A0%E3%81%91%E3%81%A7%E6%9C%AC%E6%A0%BC%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E9%96%8B%E7%99%BA%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B%E6%9C%AC-Next-js%E3%83%95%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF-%E4%B8%89%E5%A5%BD%E3%82%A2%E3%82%AD-ebook/dp/B0CNXPW7K2/ref=sr_1_6?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=5S4TUHZ0091R&dib=eyJ2IjoiMSJ9.22KXEBCRP_4BC4FMfMlXcnQIdpsDH9oqjPB1jo114V1w3xpVc9pkP9qwW7vfNQSSC3xrZ9yPpnola1Xuc_Gwo38hoO0digLU0XV1eQ11wjI9ntAGhWCPbiKejVfzWY5PE_-ZHTKGU98LDdzsaQ2J7FvNZWYijEgLMYa3pwGPZ-MyapRusTypEgXP5JlKz4ekB9cwtrq06Efs8895kGJAV1W9omhoX8lBXn_Jtgbhq1Y.VAeK1IVR9OM-1ACpvd3EmxpSMg4aGpfXoocYu3dBT5k&dib_tag=se&keywords=Nextjs&qid=1734748198&s=digital-text&sprefix=nextjs%2Ckindle-unlimited%2C174&sr=1-6',
     description:
       'Appフォルダ、middleware、データベース操作（mongoDB）、画像のアップロード(CloudInary)などを学習。',
+    name: 'Amazon.co.jp: Next.jsでつくるフルスタックアプリ　前編（バックエンド開発 v14）: 自分ひとりだけで本格アプリを開発できるようになる本 Next.jsフルスタック eBook : 三好アキ: Kindleストア',
   },
   {
     id: 6,
@@ -71,6 +73,7 @@ export const studyHistories: StudyHistoryType[] = [
       'https://www.amazon.co.jp/gp/product/B0CNZ6SXK8?ref_=dbs_p_nmg_rwt_cpsb_cl_1&storeType=ebooks',
     description:
       'Appフォルダ、middleware、データベース操作（mongoDB）、画像のアップロード(CloudInary)などを学習。',
+    name: 'Next.jsでつくるフルスタックアプリ　後編（フロントエンド開発 v14）: 自分ひとりだけで本格アプリを開発できるようになる本 Next.jsフルスタック | 三好アキ | 一般・入門書 | Kindleストア | Amazon',
   },
   {
     id: 6,
@@ -81,6 +84,7 @@ export const studyHistories: StudyHistoryType[] = [
     platformUrl:
       'https://www.amazon.co.jp/gp/product/B0BJN4H1NF?ref_=dbs_m_nmg_rwt_calw_tkin_0&storeType=ebooks',
     description: 'MERNフルスタックでアプリ作成',
+    name: 'Amazon.co.jp: MERNでつくるフルスタックアプリ　前編（バックエンド開発）: 誰でも本格アプリがつくれるようになってしまう優しい入門書 eBook : 三好アキ: 本',
   },
   {
     id: 7,
@@ -92,6 +96,7 @@ export const studyHistories: StudyHistoryType[] = [
       'https://www.amazon.co.jp/gp/product/B0BJMM1ZBP?ref_=dbs_m_nmg_rwt_calw_tkin_1&storeType=ebooks',
     description:
       'MERNフルスタックでアプリ作成 Nodejs + Express + MongoDB + React + TypeScriptの構成で学べた',
+    name: 'Amazon.co.jp: MERNでつくるフルスタックアプリ　後編（フロントエンド開発）: 誰でも本格アプリがつくれるようになる優しい入門書 eBook : 三好アキ: 本',
   },
   {
     id: 8,
@@ -102,6 +107,7 @@ export const studyHistories: StudyHistoryType[] = [
     platformUrl:
       'https://www.amazon.co.jp/gp/product/B094Z1R281?ref_=dbs_m_nmg_rwt_calw_tkin_0&storeType=ebooks',
     description: 'React + TypeScriptを初見での概要を知るために学習',
+    name: 'Amazon.co.jp: はじめてつくるReactアプリ with TypeScript: たった2.5時間で「わかる！ できる！」　最初に読みたかった本 （React & TypeScript入門） eBook : 三好アキ: 本',
   },
   {
     id: 9,
@@ -112,6 +118,7 @@ export const studyHistories: StudyHistoryType[] = [
     platformUrl:
       'https://www.amazon.co.jp/gp/product/B09Q57Q9T1?ref_=dbs_m_nmg_rwt_calw_tkin_1&storeType=ebooks',
     description: 'React + TypeScriptを初見での概要を知るために学習',
+    name: 'はじめてさわるReact & JavaScript with TypeScript: たった3時間でわかる"超"ビギナー入門書 （React & TypeScript入門） | 三好アキ | 一般・入門書 | Kindleストア | Amazon',
   },
   {
     id: 10,
@@ -140,6 +147,7 @@ export const studyHistories: StudyHistoryType[] = [
     platformUrl:
       'https://www.amazon.co.jp/%EF%BC%91%E9%80%B1%E9%96%93%E3%81%A7%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6Laravel%E5%85%A5%E9%96%80-minatomi-ebook/dp/B08WRP5G6C/?_encoding=UTF8&pd_rd_w=N0xdl&content-id=amzn1.sym.bb272e13-1a68-41b0-a370-44a252d487ac&pf_rd_p=bb272e13-1a68-41b0-a370-44a252d487ac&pf_rd_r=356-6434298-5910212&pd_rd_wg=ciy3i&pd_rd_r=99677798-0f0d-4d19-9ed9-8c7e4109570f&ref_=aufs_ap_sc_dsk',
     description: 'laravelの基礎入門としての学習',
+    name: '１週間で基礎から学ぶLaravel入門 | Minatomi | 工学 | Kindleストア | Amazon',
   },
   {
     id: 13,
@@ -150,6 +158,7 @@ export const studyHistories: StudyHistoryType[] = [
     platformUrl:
       'https://www.amazon.co.jp/Laravel-9-%E5%AE%9F%E8%B7%B5%E5%85%A5%E9%96%80-Mac-%EF%BD%9E%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%83%BB%E5%AE%9F%E8%A3%85%E3%83%BB%E3%82%A2%E3%83%97%E3%83%AA%E5%85%AC%E9%96%8B%E3%81%BE%E3%81%A7%E3%81%AE%E6%B5%81%E3%82%8C%E3%82%92%E5%AE%8C%E5%85%A8%E7%B6%B2%E7%BE%85%EF%BD%9E-ebook/dp/B09Z8L15RV?ref_=ast_author_mpb',
     description: 'laravelの開発環境・CRUD処理の学習',
+    name: 'Amazon.co.jp: Laravel 9 実践入門 for Mac: ～開発環境・実装・アプリ公開までの流れを完全網羅～ eBook : 千草: 本',
   },
   {
     id: 14,
@@ -161,6 +170,7 @@ export const studyHistories: StudyHistoryType[] = [
       'https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%99%E4%BA%BA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AETypeScript%E5%85%A5%E9%96%80-%E5%AE%89%E5%85%A8%E3%81%AA%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9%E3%81%8B%E3%82%89%E9%AB%98%E5%BA%A6%E3%81%AA%E5%9E%8B%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9%E3%81%BE%E3%81%A7-Software-Design-plus-%E9%88%B4%E6%9C%A8-ebook/dp/B09Y527YPV?ref_=ast_author_mpb',
     description:
       '気分転換に図書館で借りて本での学習。基礎知識を深く学ぶうえで良かった。また何回も読み直して知識を深めたい。',
+    name: 'Amazon.co.jp: プロを目指す人のためのTypeScript入門　安全なコードの書き方から高度な型の使い方まで Software Design plus eBook : 鈴木 僚太: Kindleストア',
   },
   {
     id: 15,
@@ -499,6 +509,7 @@ export const studyHistories: StudyHistoryType[] = [
     platformUrl:
       'https://code-s-school-5bc2.thinkific.com/courses/rendering-patterns-for-webdev',
     description: 'CSR/SSG/SSR/ISRを学んでみたく、学習.',
+    name: '【レンダリングパターン入門】CSR/SSG/SSR/ISRを完全に理解するマスター講座',
   },
   {
     id: 50,
@@ -540,5 +551,6 @@ export const studyHistories: StudyHistoryType[] = [
     platformUrl:
       'https://www.amazon.co.jp/Next-js%EF%BC%8B%E3%83%98%E3%83%83%E3%83%89%E3%83%AC%E3%82%B9CMS%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%EF%BC%81-%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%83%A2%E3%83%80%E3%83%B3Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C%E5%85%A5%E9%96%80-%E9%AB%98%E9%80%9F%E3%81%A7%E3%80%81%E5%AE%89%E5%85%A8%E3%81%A7%E3%80%81%E9%81%8B%E7%94%A8%E3%81%97%E3%82%84%E3%81%99%E3%81%84%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E3%81%A4%E3%81%8F%E3%82%8A%E3%81%8B%E3%81%9F-%E6%9F%B4%E7%94%B0-%E5%92%8C%E7%A5%88/dp/4798183660',
     description: 'NextjsとmicromCMSでホームページを作ってみたく、学習.',
+    name: 'Next.js＋ヘッドレスCMSではじめる！ かんたんモダンWebサイト制作入門 高速で、安全で、運用しやすいサイトのつくりかた | 柴田 和祈, 森茂 洋, 野崎 洋平, 千葉 大輔 |本 | 通販 | Amazon',
   },
 ];
