@@ -23,7 +23,7 @@ export const skills: SkillType[] = [
     years: '経験:3年',
     framework: 'Haml',
     description:
-      '業務ではHamlやhtmlを用いた開発を行っています。多くのサイトをコーディングした経験の経験があります。',
+      '業務ではHamlやhtmlを用いた開発を行い、多くのサイトをコーディングの経験があります。',
   },
   {
     name: 'CSS',
@@ -47,7 +47,7 @@ export const skills: SkillType[] = [
     years: '経験:3年',
     framework: '',
     description:
-      'PHPフルスクラッチでのWEBアンケートの作成・Webサイトの構築に従事。認証・データ連携などの経験があります。',
+      'PHPフルスクラッチでのWEBアンケートの作成・アクセスログ管理システムの作成の経験があります。その中で認証・データ連携などの経験があります。',
   },
   {
     name: 'Ruby',
@@ -55,14 +55,15 @@ export const skills: SkillType[] = [
     years: '経験:3年',
     framework: 'Ruby on Rails',
     description:
-      'リアルタイムライブ配信サービスの運用・保守に従事。追加機能やメンテナンスの経験があります。',
+      'リアルタイムライブ配信システムの運用・保守でフロントエンドからバックエンドまでの経験があります。機能拡張や改修の経験があります。',
   },
   {
     name: 'MySQL',
     image: '/assets/skills/mysql.png',
     years: '経験:3年',
     framework: '',
-    description: 'RubyやPHPでのDB接続SQLの発行などの経験があります。',
+    description:
+      'RubyやPHPでのDB接続やCRUDのSQLの発行・複数テーブルでのデータ操作などの経験があります。',
   },
   {
     name: 'GitLab',
@@ -98,7 +99,7 @@ export const studySkills: StudySkillType[] = [
     years: '学習:1年',
     framework: 'App Router',
     description:
-      'SSR/SSGによるSEO対策やパフォーマンス向上が可能な点を評価。公式ドキュメントとチュートリアルを通じて、フルスタックフレームワークとしての理解を深めています。本サイトはNext.jsを使用しています。',
+      'SSR/SSGによるSEO対策やパフォーマンス向上についてや公式ドキュメントや技術書を活用し、フルスタックフレームワークとしての理解を深めています。本サイトはNext.jsを使用しています。',
   },
   {
     name: 'TypeScript',
@@ -106,7 +107,7 @@ export const studySkills: StudySkillType[] = [
     years: '学習:1年',
     framework: '',
     description:
-      '型安全性による開発効率の向上と保守性の高さから採用。技術書とリファレンスを活用し、段階的に既存のJavaScriptコードを移行しながら学習しています。',
+      '型安全性による開発効率の向上と保守性の高さが魅力的だったため、技術書とリファレンスを活用し、学習中。',
   },
   {
     name: 'Laravel',
