@@ -50,7 +50,7 @@ function Hero() {
           width={400}
           height={400}
           alt="heroImage"
-          className="z-10 rounded-full"
+          className="z-10 rounded-full bg-fuchsia-200/50"
         />
       </div>
 
