@@ -34,7 +34,7 @@ export const skills: SkillType[] = [
       '多くのサイトでスタイリングを行った経験があります。レシポンシブデザインやアニメーションを使ったスタイリングの経験があります。',
   },
   {
-    name: 'Javascript',
+    name: 'JavaScript',
     image: '/assets/skills/js.png',
     years: '経験:3年',
     framework: 'library jQuery(3年)',
